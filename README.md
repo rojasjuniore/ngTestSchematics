@@ -1,3 +1,16 @@
+## Create an Angular App with a Side-Navigation and a Dashboard in 5 minutes with Schematics
+
+In the next step, we will add support for Angular Material. This command sets up also the required Schematics for the CLI.
+`ng add @angular/material`
+
+After the installation of Angular Material, we can use the Schematics and create a dashboard component.
+`ng generate @angular/material:dashboard my-dashboard`
+
+Finally, we can add our side navigation component with another schematic.
+`ng generate @angular/material:navigation navigation`
+
+
+
 # NgSideNavigation
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
@@ -26,3 +39,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 # ngTestSchematics
+
